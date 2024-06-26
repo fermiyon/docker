@@ -1,0 +1,11 @@
+## Build docker image from docker file
+
+```bash
+docker build -t flaskapp:latest .
+```
+
+## Create instance from docker image using port 5000
+
+```bash
+docker run -p 5000:5000 flaskapp 
+```
