@@ -13,8 +13,10 @@
 * docker pull fermiyon/tiny-container
 * docker run -it <hub-user>/<repo-name>:latest /bin/bash repeat.sh 4 hello
 
-211
+ Alternatively:
+
 * docker run -it fermiyon/tiny-container:latest
+* ./repeat.sh
 * `ls`
 * `exit`
 
